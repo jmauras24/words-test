@@ -1,0 +1,17 @@
+{
+  "name": "words-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "DATABASE_URL=postgres://localhost/words_test_db nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pg": "^7.4.1",
+    "sequelize": "^4.33.4"
+  }
+}
